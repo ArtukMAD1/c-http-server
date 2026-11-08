@@ -1,0 +1,10 @@
+Welcome to c-http-server!
+
+If you can read this, the server found the file and sent it to you.
+
+Try these next:
+  GET /missing.txt     -> Error: Document Not Found
+  POST /notes.txt      -> Error: Unknown Method
+  GET /../secret.txt   -> Error: Forbidden
+
+This line is deliberately longer than eighty characters so you can see the server wrap it onto a new line automatically.
